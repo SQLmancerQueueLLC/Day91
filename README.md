@@ -5,5 +5,5 @@ This is a work in progress.
 
 This will be an online character sheet application for the Day 91 role playing game.
 
-Character sheets will be stored locally,
+Character sheets will be stored locally.
 
