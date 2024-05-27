@@ -1,0 +1,123 @@
+{
+  "Name": "",
+  "Traits": {
+    "General": {
+      "CharacterName": "",
+      "Height": "",
+      "Weight": "",
+      "MaxCarryWeight": "",
+      "TotalWeight": "",
+      "TotalExperience": "",
+      "Level": "",
+      "JobPips": "",
+      "SkillPips": "",
+      "Job": "",
+      "SpecialtyJob": "",
+      "Initiative": "",
+      "Movement": "",
+      "Jog": "",
+      "Sprint": "",
+      "Actions": "",
+      "InfectionRate": "",
+      "OverCriticalDice": "",
+      "ZombieKills": "",
+      "Inspiration": ""
+    },
+    "Physical": {
+      "Sex": "",
+      "Age": "",
+      "Eyes": "",
+      "Hair": "",
+      "BleedPoints": "",
+      "LevelBonus": "",
+      "HitPoints": "",
+      "CurrentHitPoints": "",
+      "Defense": "",
+      "DamageResistance": "",
+      "Attributes": {
+        "Strength": { "Points": "", "Mod": "", "Abilities": {}, "BackroundBonus": "" },
+        "Agility": { "Points": "", "Mod": "", "Abilities": {}, "BackroundBonus": "" },
+        "Intelligence": {
+          "Points": "",
+          "Mod": "",
+          "Abilities": {},
+          "BackroundBonus": ""
+        },
+        "Perception": { "Points": "", "Mod": "", "Abilities": {}, "BackroundBonus": "" },
+        "Stamina": { "Points": "", "Mod": "", "Abilities": {}, "BackroundBonus": "" },
+        "Dexterity": { "Points": "", "Mod": "", "Abilities": {}, "BackroundBonus": "" },
+        "Presence": { "Points": "", "Mod": "", "Abilities": {}, "BackroundBonus": "" }
+      },
+      "MeleeAttack": "",
+      "RangedAttack": "",
+      "Awareness": "",
+      "Craft": "",
+      "FiratAid": "",
+      "Intimidation": "",
+      "Persuasion": "",
+      "Scavenge": "",
+      "Stealth": ""
+    },
+    "Mental": {
+      "Madness": "",
+      "Skills": {
+        "AnimalHandling": "",
+        "Crafting": "",
+        "Driving": "",
+        "Firearms": "",
+        "Melee": "",
+        "Ranged": "",
+        "Science": "",
+        "Speechcraft": "",
+        "Stealth": "",
+        "Survival": "",
+        "TrainedOffHand": "",
+        "Job": {}
+      }
+    }
+  },
+  "PersonalWeapons": {
+    "MainHand": {
+      "WeaponName": "",
+      "Damage": "",
+      "Attack": "",
+      "Range": { "Short": "", "Mid": "", "Long": "" },
+      "Ammo": "",
+      "Cap": ""
+    },
+    "OffHand": {
+      "WeaponName": "",
+      "Damage": "",
+      "Attack": "",
+      "Range": { "Short": "", "Mid": "", "Long": "" },
+      "Ammo": "",
+      "Cap": ""
+    },
+    "Thrown": {
+      "WeaponName": "",
+      "Damage": "",
+      "Attack": "",
+      "Range": { "Short": "", "Mid": "", "Long": "" },
+      "Ammo": "",
+      "Cap": ""
+    }
+  },
+  "Equipment": {
+    "Armor": {
+      "Head": { "Armor": "", "Drown": "", "BiteResistance": "", "Effects": "" },
+      "ArmInner": { "Armor": "", "Drown": "", "BiteResistance": "", "Effects": "" },
+      "ArmOuter": { "Armor": "", "Drown": "", "BiteResistance": "", "Effects": "" },
+      "Handleft": { "Armor": "", "Drown": "", "BiteResistance": "", "Effects": "" },
+      "HandRight": { "Armor": "", "Drown": "", "BiteResistance": "", "Effects": "" },
+      "ChestInner": { "Armor": "", "Drown": "", "BiteResistance": "", "Effects": "" },
+      "ChestOuter": { "Armor": "", "Drown": "", "BiteResistance": "", "Effects": "" },
+      "LegInner": { "Armor": "", "Drown": "", "BiteResistance": "", "Effects": "" },
+      "LegOuter": { "Armor": "", "Drown": "", "BiteResistance": "", "Effects": "" },
+      "Feet": { "Armor": "", "Drown": "", "BiteResistance": "", "Effects": "" }
+    },
+    "Madness": "",
+    "Vehicle": {},
+    "Backpack": {}
+  }
+}
+

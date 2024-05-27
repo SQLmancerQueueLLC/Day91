@@ -1,0 +1,62 @@
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js"></script>
+  <script src="/js/sheet.js></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gloria Hallelujah">
+</head>
+
+<body>
+  <nav id="nav-main">
+    <ul>
+      <li><a href="#general" class="circle-sketch-highlight">General</a> -></li>
+      <li><a href="#physical">Physical</a> -></li>
+      <li><a href="#mental">Mental</a> -></li>
+      <li><a href="#weapons">Weapons</a> -></li>
+      <li><a href="#armor">Armor</a> -></li>
+      <li><a href="#madness">Madness</a> -></li>
+      <li><a href="#backpack">Backpack</a> -></li>
+      <li><a href="#vehicle">Vehicle</a> -></li>
+
+    </ul>
+  </nav>
+
+  <section id="create-sheet" style="display: none;">
+    <input id="character-sheet-name" style="display: none;">
+    ID
+    </input><br><br>
+    <button id="create-sheet" type="button" onclick="CreateSheet($('#character-sheet-name').val())" style="display: none;">
+      Create
+    </button>
+  </section>
+  <section id="list-sheets">
+    <button id="show-sheets" type="button" onclick="GetSheets($('#returned-sheets'))" )>
+      Show
+    </button><br>
+    <div id="returned-sheets">
+    </div>
+  </section>
+  <main>
+    <div data-spy="scroll" data-target="#nav-main" data-offset="0">
+      <div class="container-fluid">
+        <div class="row">
+          <h2 class="col-sm-12">General Traits</h2>
+          <div id="general"></div>
+          <h2 class="col-sm-12">Physical Traits</h2>
+          <div id="physical"></div>
+          <h2 class="col-sm-12">Mental Traits</h2>
+          <div id="mental"></div>
+          <h2 class="col-sm-12">Weapons</h2>
+          <div id="weapons"></div>
+          <h2 class="col-sm-12">Armor</h2>
+          <div id="armor"></div>
+          <h2 class="col-sm-12">Madness</h2>
+          <div id="madness"></div>
+          <h2 class="col-sm-12">Backpack</h2>
+          <div id="backpack"></div>
+          <h2 class="col-sm-12">Vehicle</h2>
+          <div id="vehicle"></div>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
