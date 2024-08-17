@@ -1,21 +1,22 @@
 <head>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js"></script>
-  <script src="/js/sheet.js></script>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gloria Hallelujah">
+  <script src="./js/sheet.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Gloria Hallelujah">
+  <link rel="stylesheet" type="text/css" href="./css/styles.css">
 </head>
 
 <body>
   <nav id="nav-main">
     <ul>
-      <li><a href="#general" class="circle-sketch-highlight">General</a> -></li>
-      <li><a href="#physical">Physical</a> -></li>
-      <li><a href="#mental">Mental</a> -></li>
-      <li><a href="#weapons">Weapons</a> -></li>
-      <li><a href="#armor">Armor</a> -></li>
-      <li><a href="#madness">Madness</a> -></li>
-      <li><a href="#backpack">Backpack</a> -></li>
-      <li><a href="#vehicle">Vehicle</a> -></li>
+      <li><a href="#general" onclick="moveHighlight(this)" class="circle-sketch-highlight">General</a> -></li>
+      <li><a href="#physical" onclick="moveHighlight(this)" >Physical</a> -></li>
+      <li><a href="#mental" onclick="moveHighlight(this)" >Mental</a> -></li>
+      <li><a href="#weapons" onclick="moveHighlight(this)" >Weapons</a> -></li>
+      <li><a href="#armor" onclick="moveHighlight(this)" >Armor</a> -></li>
+      <li><a href="#madness" onclick="moveHighlight(this)" >Madness</a> -></li>
+      <li><a href="#backpack" onclick="moveHighlight(this)" >Backpack</a> -></li>
+      <li><a href="#vehicle" onclick="moveHighlight(this)" >Vehicle</a> -></li>
 
     </ul>
   </nav>
@@ -60,3 +61,10 @@
     </div>
   </main>
 </body>
+<script>
+  function moveHighlight (el) {
+
+      $('nav ul li a').removeClass("circle-sketch-highlight")
+      $(el).addClass("circle-sketch-highlight")
+  }
+</script>
